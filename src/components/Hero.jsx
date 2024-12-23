@@ -2,6 +2,7 @@ import React from "react";
 import { HERO_CONTENT } from "../constants";
 import profilepic from "../assets/Profile_pic.png";
 import { motion } from "framer-motion";
+import NewProfilePic from "../assets/NewProfilePic-min.jpg";
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -52,9 +53,12 @@ const Hero = () => {
             <motion.img
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: 1, delay: 1.3 }}
-              src={profilepic}
+              transition={{ duration: 1, delay: 1 }}
+              src={NewProfilePic}
               alt="Rahul Balla"
+              // style={{marginTop: 50 , width: "380px", height: "auto" }}
+              className="w-3/4 lg:w-[380px] h-auto"
+              style={{ marginTop: 50 }}
             />
           </div>
         </div>

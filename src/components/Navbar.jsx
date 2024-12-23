@@ -8,7 +8,7 @@ import { FaFileAlt } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <nav className="mb-20 flex flex-col md:flex-row items-center justify-between py-6 space-y-4 md:space-y-0">
+    <nav className="mb-20 flex flex-col md:flex-row items-center justify-between py-4 space-y-4 md:space-y-0">
       <div className="flex items-center">
         <div className="rounded-2xl  p-4">
           <DiCssdeck className="text-4xl" />
@@ -42,7 +42,7 @@ const Navbar = () => {
         </a>
 
         <a
-          href="https://drive.google.com/file/d/1hqEK4yqjbILAF475WNPFTxRBs6qIFywW/view?usp=sharing"
+          href="https://drive.google.com/file/d/1BWSHzXqJZcMVp5haAN84-6fo068ry8j8/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="text-lg font-semibold bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent hover:scale-105 transition-transform"

@@ -7,3 +7,11 @@
 :root {
   font-family: "Inter", sans-serif;
 }
+
+/* Custom selection color wrapped in @layer */
+@layer utilities {
+  ::selection {
+    background-color: #a78bfa !important; /* Light purple */
+    color: #ffffff !important; /* White text for contrast */
+  }
+}

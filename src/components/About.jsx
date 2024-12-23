@@ -12,7 +12,7 @@ const About = () => {
       </h2>
 
       <div className="flex flex-wrap">
-        <motion.div
+        {/* <motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 0.5 }}
@@ -27,16 +27,16 @@ const About = () => {
               alt="Rahul Balla"
             />
           </div>
-        </motion.div>
+        </motion.div> */}
 
         <motion.div
           whileInView={{ opacity: 1, x: 0 }}
-          initial={{ opacity: 0, x: 100 }}
+          initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 0.5 }}
-          className="w-full lg:w-1/2"
+          className="w-full lg:w-full"
         >
-          <div className="flex justify-center lg:justify-start">
-            <p className="my-2 max-w-xl py-6 font-light tracking-tight">
+          <div className="flex justify-center lg:justify-center">
+            <p className="my-2 max-w-3xl py-6 font-light tracking-tight text-center lg:text-left">
               {ABOUT_TEXT}
             </p>
           </div>

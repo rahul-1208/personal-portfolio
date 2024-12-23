@@ -11,6 +11,7 @@ import { faAws } from "@fortawesome/free-brands-svg-icons";
 import spring from "../assets/icons/spring.svg";
 import mysql from "../assets/icons/mysql.svg";
 import { motion } from "framer-motion";
+import { DiJava } from "react-icons/di";
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -74,6 +75,14 @@ const Technologies = () => {
             icon={faAws}
             className="text-7xl"
           />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(4)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <DiJava className="text-7xl" style={{ color: "#007396" }} />{" "}
         </motion.div>
         <motion.div
           variants={iconVariants(7)}
